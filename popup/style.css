@@ -1,0 +1,37 @@
+body {
+    overflow-y: scroll;
+    overflow-x: scroll;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+img {
+    max-width: 230px;
+    max-height: 95px;
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 3px;
+    border: 1px solid #000000;
+    box-shadow: 5px 5px #d2d2d2;
+    margin-bottom: 10px;
+}
+.alert {
+    background-color: #fcf8e3;
+    border: 1px solid #fbeed5;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 8px 35px 8px 14px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+.alert-success {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #468847;
+}
+.alert-danger {
+    background-color: #f2dede;
+    border-color: #eed3d7;
+    color: #b94a48;
+}
+button#options {
+    float: left;
+}
