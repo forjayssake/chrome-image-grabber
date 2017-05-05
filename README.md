@@ -5,8 +5,11 @@
 
 crawls for img tags in the page source and displays for download
 
-## additional requirements
-* display image size
-* display image download option
-* display slider for min image size
-* display options for type
+## Run locally in Chrome ##
+
+Settings > Extensions
+Tick 'Developer mode' option
+Click 'Load unpacked extension' button
+Navigate to top level deirectory for this plugin code
+
+Plugin will be available in Chrome for duration of the session
